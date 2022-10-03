@@ -1,0 +1,1 @@
+This is another example article. This one will be about another fruit, this time a carrot. Its purpose is to test that when 'fruit' is searched, both the apple and the carrot article appear in the search results. This is because in its tags, this carrot article will also have a 'fruit' tag.

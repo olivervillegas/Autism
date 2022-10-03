@@ -1,0 +1,1 @@
+This is to show that text files can be replaced in the database, which will then update the corresponding web page with the new text; nothing is hardcoded into the code, rather, the content is fetched from the database and is currently .txt files, but can be .html or .rtf files in the future. 

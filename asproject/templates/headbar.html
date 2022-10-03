@@ -1,0 +1,9 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+
+<div id="head-bar">
+	<ul>
+		<li><img id="header-image" src="{% static 'img/puzzle-piece.png' %}"></li>
+		<li>{% include 'searchbar.html' %}</li>
+	</ul>
+</div>

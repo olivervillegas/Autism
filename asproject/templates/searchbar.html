@@ -1,0 +1,11 @@
+<form role="search" id="searchbar" method=POST action="{% url 'search' %}">
+		{% csrf_token %}
+<div>
+	<div class="search">
+	   <input name="searched" type="text" class="searchTerm" placeholder="What are you looking for?">
+	   <button type="submit" class="searchButton">
+		 <i class="fa fa-search"></i>
+	  </button>
+	</div>
+ </div>
+</form>

@@ -1,0 +1,12 @@
+{% load static %}
+<!doctype html>
+<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+
+<div id='top-nav-bar'>
+	<ul>
+		<li><a href="{% url 'home' %}">Home</a href></li>
+		<li><a href="{% url 'blog' %}">Blog</a href></li>
+		<li><a href="{% url 'about' %}">About</a href></li>
+		<li><a href="{% url 'contact' %}">Contact</a href></li>
+	</ul>
+</div>

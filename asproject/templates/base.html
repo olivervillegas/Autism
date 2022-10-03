@@ -1,0 +1,22 @@
+{% load static %}
+<!doctype html>
+<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+<html>
+	<head>
+		<title>Asperger's Self-Help Site</title>
+
+	</head>
+
+	<body>
+		<header>
+		{% include 'headbar.html' %}
+		{% include 'navbar.html' %}
+		</header>
+		
+
+		{% block content %}
+			replace me dawg
+		{% endblock %}
+
+	</body>
+</html>
